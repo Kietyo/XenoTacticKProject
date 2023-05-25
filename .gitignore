@@ -1,3 +1,6 @@
-.DS_Store
+# Project exclude paths
 .idea
-
+.gradle/
+build/
+*.hprof
+deps/

@@ -56,3 +56,4 @@ include(":XenoTactic-GameLogic")
 //include("korge-compose")
 //project(":korge-compose").projectDir = file("..\\korge-compose\\korge-compose")
 
+rootProject.name = "XenoTacticV2"
