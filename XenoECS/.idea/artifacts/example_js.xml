@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="example-js">
+    <output-path>$PROJECT_DIR$/../korge-compose/example/build/libs</output-path>
+    <root id="archive" name="example-js.jar" />
+  </artifact>
+</component>

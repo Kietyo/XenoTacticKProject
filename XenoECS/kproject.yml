@@ -1,0 +1,15 @@
+name: XenoECS
+type: library
+version: 1.0.0
+#src: ./src
+plugins:
+  - org.jetbrains.kotlinx.benchmark
+  - serialization
+  - org.jetbrains.kotlin.plugin.allopen
+dependencies:
+  - "org.jetbrains.kotlinx:kotlinx-benchmark-runtime:0.4.2"
+  - ../ktruth
+#  - "org.jetbrains.kotlinx.benchmark"
+#  - ./libs/kds
+#  - git::adder::korlibs/kproject::/modules/adder::54f73b01cea9cb2e8368176ac45f2fca948e57db
+#  - maven::common::org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4

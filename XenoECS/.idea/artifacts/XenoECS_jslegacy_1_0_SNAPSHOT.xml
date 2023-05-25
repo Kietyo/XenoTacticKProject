@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="XenoECS-jslegacy-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="XenoECS-jslegacy-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="XenoECS.jsMain" />
+    </root>
+  </artifact>
+</component>
