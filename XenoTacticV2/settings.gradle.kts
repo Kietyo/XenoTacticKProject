@@ -1,7 +1,5 @@
 //enableFeaturePreview("GRADLE_METADATA")
 
-
-
 //pluginManagement {
 //    val korgePluginVersion: String by settings
 //
@@ -18,6 +16,7 @@
 //}
 
 pluginManagement {
+    repositories {  mavenLocal(); mavenCentral(); google(); gradlePluginPortal()  }
 //    repositories {
 //        println("Setting up repo in settings.gradle.kts")
 //        mavenLocal(); mavenCentral(); google(); gradlePluginPortal()
@@ -37,7 +36,7 @@ pluginManagement {
 
 plugins {
     //id("com.soywiz.kproject.settings") version "0.0.1-SNAPSHOT"
-    id("com.soywiz.kproject.settings") version "0.2.7"
+    id("com.soywiz.kproject.settings") version "0.3.0"
 }
 
 //kproject("./deps")
